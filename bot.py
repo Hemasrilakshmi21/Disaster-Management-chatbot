@@ -4,7 +4,7 @@ from google import genai
 from google.genai import types
 def generate():
     client = genai.Client(
-        api_key=os.environ.get("AIzaSyCC8b2bCSdEVZYbBpPGIUqcnuJqU2lrjk4"),
+        api_key=os.environ.get("your api key"),
     )
     model = "gemini-3-flash-preview"
     contents = [
