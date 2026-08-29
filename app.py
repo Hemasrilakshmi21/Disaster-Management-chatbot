@@ -47,7 +47,7 @@ if user_input:
     st.session_state.messages.append(
         {"role": "assistant", "content": reply}
     )
-    st.markdown("""
-**Project:** Disaster Management Response & Relief Explainer Bot  
+st.markdown("""
+**Project:** Disaster Management Response & Relief Explainer Bot
 **Tech:** Gemini Flash Preview · Streamlit · Python
 """)
