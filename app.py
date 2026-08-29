@@ -1,6 +1,6 @@
 import streamlit as st
 from google import genai
-API_KEY = "your api key" 
+API_KEY = st.secrets["API_KEY"]
 client = genai.Client(api_key=API_KEY)
 st.set_page_config(
     page_title="Disaster Management Explainer Bot",
