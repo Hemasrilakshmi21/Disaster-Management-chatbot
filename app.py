@@ -20,7 +20,7 @@ Rules:
 - No predictions
 - No emergency instructions
 - No coordination or alerts
-
+"""
 
 # ---------------------------
 # Session State
